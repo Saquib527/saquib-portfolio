@@ -254,7 +254,6 @@ header{
     background: transparent;
     border: 0;
     cursor: pointer;
-    position: fixed;
     right: 1em;
     z-index: 500;
 }
@@ -267,9 +266,9 @@ header{
     transition: transform 250ms cubic-bezier(.5, 0, 0.5, 1);
 }
 /*this makes the position fixed of nav-toggle when navigation bar is opened*/
-/*.nav-open .nav-toggle{
+.nav-open .nav-toggle{
     position: fixed;
-}*/
+}
 
 .nav-open .hamburger{
     transform: rotate(.625turn);
